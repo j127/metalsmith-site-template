@@ -1,0 +1,18 @@
+    <footer class="container page-footer">
+        <hr />
+        <p>&copy; <span id="currentYear">2018</span> {{siteName}} &bull; <a href="/contact/">Contact Us</a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="/js/main.js"></script>
+
+    {{#if isDevMode}}
+    <!-- Enable live reload if metalsmith is run with `dev` as argv[2] -->
+    <script src="http://localhost:35729/livereload.js"></script>
+    {{/if}}
+</body>
+</html>

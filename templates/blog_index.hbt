@@ -1,0 +1,12 @@
+{{> header}}
+{{> navbar}}
+<section class="container main-content">
+<h1>Blog</h1>
+{{#each posts}}
+<div class="blog-post-in-blog-list">
+    <h2 class="title"><a href="/{{ path }}/">{{ title }}</a></h2>
+    <!-- <div class="date">{{ date }}</div> -->
+</div>
+{{/each}}
+</section>
+{{> footer}}

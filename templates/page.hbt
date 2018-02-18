@@ -1,0 +1,12 @@
+{{> header}}
+{{> navbar}}
+<section class="container main-content">
+    {{#unless isHomepage}}
+    <h1>{{title}}</h1>
+    {{/unless}}
+    {{{contents}}}
+    {{#if isPost}}
+        {{> comments}}
+    {{/if}}
+</section>
+{{> footer}}
