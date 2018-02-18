@@ -8,8 +8,9 @@
 
 ## Building
 
-Run `npm i` to install the Node.js dependencies.
+1. Run `npm i` to install the Node.js dependencies.
+2. Build with `npm run build`.
 
 ## Deployment
 
-Run `npm run build` and then drag-and-drop the `build` directory into Netlify, or use some other hosting service.
+Drag-and-drop the `build` directory into Netlify, or upload those files to some other hosting service.
